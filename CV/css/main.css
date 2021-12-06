@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
+
+body{
+    font-family:'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*======= MENU =======*/
+#navbarSupportedContent a:hover{
+    opacity: 0.6;
+}
+
+#menu li > a { /* The # indicates the id, and the > represents "parent of" example: for id=menu, where 'li' holds an 'a' */
+    font-size: 18px;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 18px;
+    color: white;
+}
+
+#menu ul > li{
+    text-align: center;
+}
+
+/*======= Slider of images =======*/
+.carousel-inner{
+    max-height: 39rem; /*Size of image*/
+}
+
+@media (max-with:768px){
+    #intro{
+        width: 90% !important; /*With important, bootstrap holds 90% of the intro*/
+    }
+}
