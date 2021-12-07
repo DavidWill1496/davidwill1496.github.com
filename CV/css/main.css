@@ -15,11 +15,6 @@ body{
     color: #3f3f3f;
 }
 
-#menu form > button {
-    font-size: 18px;
-    color: white;
-}
-
 #menu ul > li{
     text-align: center;
 }
@@ -29,8 +24,32 @@ body{
     max-height: 39rem; /*Size of image*/
 }
 
+/*======= Slider of testimonial slider =======*/
+.testimonial-area{
+    position: relative;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+
+/*======= ABOUT =======*/
+#about p{
+    font-size: 18px;
+}
+
+/*======= MEDIA QUERIES =======*/
 @media (max-with:768px){
     #intro{
         width: 90% !important; /*With important, bootstrap holds 90% of the intro*/
+    }
+    .academic-experience {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px){ /*For small screens, put text below the picture*/
+    .icon-wrap{ 
+        flex-wrap: wrap;
+        justify-content: center !important;
     }
 }

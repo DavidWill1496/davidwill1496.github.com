@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS TEMPLATE ORIGINAL-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./assets/owl.carousel.css">
     <title>David Galvis</title>
   </head>
   <body>
@@ -25,7 +26,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
@@ -36,10 +37,6 @@
               <a class="nav-link" href="#">Papers</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="email" placeholder="Email" aria-label="email">
-            <button class="btn btn-primary btn-outline-success" type="button">Search</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -47,10 +44,10 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000"> <!--databsinterval for time active in ms, active for the first image-->
-          <img src="./images/UMNG.jpg" class="d-block w-100" alt="slide1">
+          <img src="./images/Programming.jpg" class="d-block w-100" alt="slide1">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="./images/Programming.jpg" class="d-block w-100" alt="slide2">
+          <img src="./images/Embedded.jpg" class="d-block w-100" alt="slide2">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
           <img src="./images/Manipulator.jpg" class="d-block w-100" alt="slide3">
@@ -66,7 +63,7 @@
       </button>
     </div>
 
-    <!-- Introduction-->
+    <!-- Section Introduction-->
     <section class="w-50 mx-auto text-center pt-5" id="intro"> <!-- w size of container in 50%, mx auto to center, pt padding top-->
       <h1 class="p-3 fs-2 border-top border-3">Mechatronics engineer with great skills in
         <span class="text-primary"> Programming and Control</span></h1>
@@ -75,10 +72,120 @@
         is a mechatronics engineer graduated from Nueva Granada Military University, 
       </p>
     </section>
-
-    <!-- Working experience-->
-
+    <!-- Section academic experience-->
+    <section class="container-fluid">
+      <div class="row w-75 mx-auto academic-experience"> <!-- w is width mx is margin auto, my is vertical margin-->
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">  <!--sm (small, grid)in col for the responsive layout, lg for large, 12 is max full space, 6 is half, d-flex for flexbox and justify-->
+          <img src="./images/DesigneduC.png" alt="microcontroller" width="180" height=160>
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Embedded</h3>
+            <p class="px-4">Programming applications with different microcontrollers in C,C++ or Arduino</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">
+          <img src="./images/Control.png" alt="microcontroller" width="180" height=160>
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Control systems</h3>
+            <p class="px-4">Design linear and nonlinear control systems, continuous and discrete</p>
+          </div>
+        </div>
+      </div>
+      <div class="row w-75 mx-auto academic-experience"> <!-- w is width mx is margin auto, my is vertical margin-->
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">  <!--sm (small, grid)in col for the responsive layout, lg for large, 12 is max full space, 6 is half, d-flex for flexbox and justify-->
+          <img src="./images/AI.jpg" alt="microcontroller" width="180" height=160>
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Artificial Intelligence</h3>
+            <p class="px-4">Perform of different AI logics, in software and implemented in microcontrollers</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">
+          <img src="./images/FEA.jpg" alt="microcontroller" width="180" height=160>
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">CFD</h3>
+            <p class="px-4">Simulation and FEA using specialized computational tools</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section About-->
+    <section>
+      <div class="w-50 m-auto text-center" id="about">
+        <h1 class="mb-4 fs-5">Academic experience with these
+          <span class="text-primary"> technologies and software</span>
+        </h1>
+        <p>I always want to improve, to learn new things, and to be update in every technology release</p>
+      </div>
+    </section>
+    <!-- Section Slides of software-->
+    <section>
+      <div class="testimonial-area">
+        <div class="container">
+          <div class="owl-carousel test-slides" id="testimonial-carousel">
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/Matlab.png" alt=""></div></div></div>
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/logo-ansys.png" alt=""></div></div></div>
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/Solidworks.png" alt=""></div></div></div>
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/festo.png" alt=""></div></div></div>
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/Xilinx.jpg" alt=""></div></div></div>
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/Logo-Siemens.png" alt=""></div></div></div>
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/Mitsubishi.png" alt=""></div></div></div>
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/Raspberry.png" alt=""></div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Option 1: Bootstrap Bundle with Popper - TEMPLATE ORIGINAL-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./assets/jquery-3.6.0.min.js"></script>
+    <script src="./assets/owl.carousel.min.js"></script>
+    <script>
+      $('#testimonial-carousel').owlCarousel({
+          autoplay:true,
+          dots: false,
+          loop:true,
+          margin:10,
+          nav:false,
+          responsive:{
+              0:{
+                  items:1
+              },
+              300:{
+                  items:2
+              },
+              600:{
+                  items:3
+              },
+              900:{
+                  items:4
+              },
+              1200:{
+                  items:5
+              }
+          }
+})
+    </script>
   </body>
 </html>
