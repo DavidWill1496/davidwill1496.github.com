@@ -31,20 +31,36 @@ body{
     margin-top: 2%;
 }
 
+#img-area {
+    text-align: center;
+}
+
 /*======= ABOUT =======*/
 #about p{
     font-size: 18px;
 }
 
+/*======= CONTACT =======*/
+#bg-contact{
+    position: relative;
+    top: -130px;
+}
+#contact-section{
+    background-color: #1b2a4e;
+    min-height: 10%;
+    position: bottom;
+}
+
 /*======= MEDIA QUERIES =======*/
 @media (max-with:768px){
-    #intro{
+    #intro, #about{
         width: 90% !important; /*With important, bootstrap holds 90% of the intro*/
     }
     .academic-experience {
         width: 100% !important;
         text-align: center;
     }
+        
 }
 
 @media(max-width: 576px){ /*For small screens, put text below the picture*/
