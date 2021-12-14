@@ -27,7 +27,7 @@ body{
 /*======= Slider of testimonial slider =======*/
 .testimonial-area{
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-top: 2%;
 }
 
@@ -41,7 +41,7 @@ body{
 }
 
 /*======= CONTACT =======*/
-#bg-contact{
+/* #bg-contact{
     position: relative;
     top: -130px;
 }
@@ -49,7 +49,7 @@ body{
     background-color: #1b2a4e;
     min-height: 10%;
     position: bottom;
-}
+} */
 
 /*======= MEDIA QUERIES =======*/
 @media (max-with:768px){
