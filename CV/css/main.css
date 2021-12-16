@@ -52,13 +52,16 @@ body{
 } */
 
 /*======= MEDIA QUERIES =======*/
-@media (max-with:768px){
-    #intro, #about{
+@media (max-width:768px){
+    #intro, #about, #accordionExample{
         width: 90% !important; /*With important, bootstrap holds 90% of the intro*/
     }
     .academic-experience {
         width: 100% !important;
         text-align: center;
+    }
+    .WorkExperience {
+        width:80% !important;
     }
         
 }
@@ -67,5 +70,8 @@ body{
     .icon-wrap{ 
         flex-wrap: wrap;
         justify-content: center !important;
+    }
+    .WorkExperience {
+        width:80% !important;
     }
 }

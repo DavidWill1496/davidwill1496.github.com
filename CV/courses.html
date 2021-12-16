@@ -64,58 +64,55 @@
     </div>
 
     <!-- Section Introduction-->
-    <section class="w-50 mx-auto text-center pt-5" id="intro"> <!-- w size of container in 50%, mx auto to center, pt padding top-->
-      <h1 class="p-3 fs-2 border-top border-3">Mechatronics engineer with great skills in
-        <span class="text-primary"> Programming and Control</span></h1>
+    <section class="w-75 mx-auto text-left pt-5" id="intro"> <!-- w size of container in 50%, mx auto to center, pt padding top-->
+      <h1 class="p-3 fs-2 border-top border-3">Relevant courses and descriptions</h1>
       <p class="p-3 fs-4">
-        <span class="text-primary">David Galvis</span>
-        is a mechatronics engineer graduated from Nueva Granada Military University, 
+        The following list contains detailed course descriptions of highly relevant subjects and <span class="text-primary"> projects</span> studied during the degree of Mechatronics Engineering in Nueva Granada Military University
       </p>
     </section>
-    <!-- Section academic experience-->
-    <section class="container-fluid">
-      <div class="row w-75 mx-auto academic-experience"> <!-- w is width mx is margin auto, my is vertical margin-->
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">  <!--sm (small, grid)in col for the responsive layout, lg for large, 12 is max full space, 6 is half, d-flex for flexbox and justify-->
-          <img src="./images/DesigneduC.png" alt="microcontroller" width="180" height=160>
-          <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">Embedded</h3>
-            <p class="px-4">Programming applications with different microcontrollers in C,C++ or Arduino</p>
+    <!-- Accordion for course description -->
+    <!-- <section class="container-fluid "> -->
+      <div class="accordion w-50 p-3 mx-auto" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Linear Control
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body justify-content-center">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">
-          <img src="./images/Control.png" alt="microcontroller" width="180" height=160>
-          <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">Control systems</h3>
-            <p class="px-4">Design linear and nonlinear control systems, continuous and discrete</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Advanced Control Topics 
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Industrial Automation
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
           </div>
         </div>
       </div>
-      <div class="row w-75 mx-auto academic-experience"> <!-- w is width mx is margin auto, my is vertical margin-->
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">  <!--sm (small, grid)in col for the responsive layout, lg for large, 12 is max full space, 6 is half, d-flex for flexbox and justify-->
-          <img src="./images/AI.jpg" alt="microcontroller" width="180" height=160>
-          <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">Artificial Intelligence</h3>
-            <p class="px-4">Perform of different AI logics, in software and implemented in microcontrollers</p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">
-          <img src="./images/FEA.jpg" alt="microcontroller" width="180" height=160>
-          <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">CFD</h3>
-            <p class="px-4">Simulation and FEA using specialized computational tools</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Section About-->
-    <section>
-      <div class="w-75 m-auto text-center" id="about"> <!-- w is % of width on screen-->
-        <h1 class="mb-4 fs-5">Academic experience with these
-          <span class="text-primary"> Technologies and software</span>
-        </h1>
-        <p>I always want to improve, to learn new things, and to be update in every technology released</p>
-      </div>
-    </section>
+    <!-- </section> -->
+    <!-- Work Experience and skills-->
+    <!-- Academic experience-->
     <!-- Section Slides of software-->
     <section>
       <div class="testimonial-area">
@@ -128,7 +125,7 @@
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <img src="./images/logo-ansys.png" alt=""></div></div></div>
+                  <img src="./images/Logo-Siemens.png" alt=""></div></div></div>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
@@ -140,11 +137,11 @@
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <img src="./images/Xilinx.jpg" alt=""></div></div></div>
+                  <img src="./images/logo-ansys.png" alt=""></div></div></div>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <img src="./images/Logo-Siemens.png" alt=""></div></div></div>
+                  <img src="./images/LabView.png" alt=""></div></div></div>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
@@ -157,27 +154,28 @@
               <div class="single-testimonial">
                 <div class="img-area">
                   <img src="./images/AutomationStudio.PNG" alt=""></div></div></div>
+            <div class="item">
+              <div class="single-testimonial">
+                <div class="img-area">
+                  <img src="./images/Xilinx.jpg" alt=""></div></div></div>
           </div>
         </div>
       </div>
     </section>
+    <div id="google_element"></div>
     <!-- Contact section-->
     <footer class="bg-dark text-center text-white">
       <!-- Grid container -->
-      <div class="container p-4 pb-0">
+      <div class="container p-4 pb-0 mt-5">
         <!-- Section: Social media -->
         <section class="mb-4">
           <!-- Facebook -->
           <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/daviid.galviis.3/" target="_blank" role="button"
             ><i class="fab fa-facebook-f"></i
           ></a>
-          <!-- Twitter -->
-          <a class="btn btn-outline-light btn-floating m-1" href="#!" target="_blank" role="button"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          <!-- Google -->
-          <a class="btn btn-outline-light btn-floating m-1" href="#!" target="_blank" role="button"
-            ><i class="fab fa-google"></i
+          <!-- University -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.umng.edu.co/programas/pregados/ingenieria-mecatronica" target="_blank" role="button"
+            ><i class="fas fa-university"></i
           ></a>
           <!-- Instagram -->
           <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/davidstevensg/" target="_blank" role="button"
@@ -197,7 +195,7 @@
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2020 Copyright:
-        <a class="text-white" href="https://github.com/DavidWill1496">David Esteven Galvis Arevalo, UMNG</a>
+        <a class="text-white" href="https://github.com/DavidWill1496" target="_blank">David Esteven Galvis Arevalo</a>
       </div>
       <!-- Copyright -->
     </footer>
@@ -205,6 +203,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="./assets/jquery-3.6.0.min.js"></script>
     <script src="./assets/owl.carousel.min.js"></script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+      function loadGoogleTranslate(){
+        new google.translate.TranslateElement("google_element");
+      }
+    </script>
     <script>
       $('#testimonial-carousel').owlCarousel({
           autoplay:true,
