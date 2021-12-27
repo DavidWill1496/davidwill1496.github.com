@@ -45,6 +45,16 @@ a:hover{ /* Pseudoclass when mouse is over the elements a*/
     height: 100vh;
 }
 
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 /*======= Slider of images =======*/
 .carousel-inner{
     max-height: 39rem; /*Size of image*/
@@ -89,6 +99,9 @@ a:hover{ /* Pseudoclass when mouse is over the elements a*/
     .WorkExperience {
         width:80% !important;
     }
+    .Embebidos {
+        width:90% !important;
+    }
         
 }
 
@@ -99,5 +112,8 @@ a:hover{ /* Pseudoclass when mouse is over the elements a*/
     }
     .WorkExperience {
         width:80% !important;
+    }
+    .Embebidos {
+        width:90% !important;
     }
 }
