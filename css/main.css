@@ -107,6 +107,7 @@ h6 {
 } */
 
 /*======= MEDIA QUERIES =======*/
+/* The # is used for id's and the . is used for classes */
 @media (max-width:768px){
     #intro, #about, #accordionExample{
         width: 90% !important; /*With important, bootstrap holds 90% of the intro*/
@@ -115,11 +116,14 @@ h6 {
         width: 100% !important;
         text-align: center;
     }
-    .WorkExperience {
-        width:80% !important;
-    }
-    .Embebidos {
+    #WorkExperience {
         width:90% !important;
+    }
+    #Embebidos {
+        width:90% !important;
+    }
+    #video {
+        width: 90% !important;
     }
         
 }
@@ -129,10 +133,13 @@ h6 {
         flex-wrap: wrap;
         justify-content: center !important;
     }
-    .WorkExperience {
-        width:80% !important;
+    #WorkExperience {
+        width:90% !important;
     }
-    .Embebidos {
+    #Embebidos {
+        width:90% !important;
+    }
+    #video {
         width:90% !important;
     }
 }
