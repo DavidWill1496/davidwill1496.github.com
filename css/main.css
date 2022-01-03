@@ -31,6 +31,13 @@ body{
     color: #002171;
 }
 
+#video a{  /*Link to refresh website in embeddeds*/
+    text-decoration: none; /*Remove underline of links cause default is underline for links*/
+    font-weight: 600;
+    font-style: italic;
+    color: #002171;
+}
+
 a:hover{ /* Pseudoclass when mouse is over the elements a*/
     opacity: 0.6; /*Changes the opacity of the elements from 0 to 1*/
     cursor: pointer;
