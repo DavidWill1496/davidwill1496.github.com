@@ -52,6 +52,12 @@ a:hover{ /* Pseudoclass when mouse is over the elements a*/
     text-align: center;
 }
 
+.sup {
+    position: relative;
+    bottom: 1ex; 
+    font-size: 80%;
+  }
+
 /*======= PDF Viewer =======*/
 .pdfview {
     margin: auto;
