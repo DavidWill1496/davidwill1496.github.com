@@ -10,6 +10,10 @@ body{
     opacity: 0.6;
 }
 
+.fa-star, .fa-solid, .fa-star-o{
+  color:#ffc400; /*Color for stars*/
+}
+
 /*For images with the class center*/
 .center {
     display: block;
