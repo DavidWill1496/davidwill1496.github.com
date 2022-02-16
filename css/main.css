@@ -12,7 +12,12 @@ body{
 
 /*Color for stars*/
 /* .fa-star, .fa-star-half-alt{
-    color:#ffc400; } */
+    color:#ffc400; }
+*/
+
+ul {
+    list-style-type: none;
+}
 
 /*For images with the class center*/
 .center {
