@@ -10,6 +10,10 @@ body{
     opacity: 0.6;
 }
 
+/*Color for stars*/
+/* .fa-star, .fa-star-half-alt{
+    color:#ffc400; } */
+
 /*For images with the class center*/
 .center {
     display: block;
