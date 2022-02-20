@@ -10,6 +10,18 @@ body{
     opacity: 0.6;
 }
 
+/*======= VISITOR COUNTER =======*/
+.outer-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner-div  {
+    display: block;
+    margin-left:50vh;
+    margin-right: auto;
+}
+
 /*Color for stars*/
 /* .fa-star, .fa-star-half-alt{
     color:#ffc400; }
@@ -20,13 +32,14 @@ ul {
 }
 
 /*For images with the class center*/
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: 50%;
-  }
+}
 
 #accordionExample li > a{ /*Remove underline of links cause default is underline for links*/
     text-decoration: none;
@@ -94,6 +107,16 @@ h3 {
     font-weight: bold;
 }
 
+h5 {
+    display: block;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 h6 {
     text-align:center;
     display: block;
@@ -139,6 +162,23 @@ h6 {
 
 /*======= MEDIA QUERIES =======*/
 /* The # is used for id's and the . is used for classes */
+@media (max-width:1920px){
+    .sdu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20% !important;
+        height: 20% !important;
+    }
+    .imgpapers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75% !important;
+        height: 75% !important;
+    }
+}
+
 @media (max-width:768px){
     #intro, #about, #accordionExample{
         width: 90% !important; /*With important, bootstrap holds 90% of the intro*/
@@ -156,7 +196,20 @@ h6 {
     #video {
         width: 90% !important;
     }
-        
+    .sdu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .imgpapers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75% !important;
+        height: 75% !important;
+    }
 }
 
 @media(max-width: 576px){ /*For small screens, put text below the picture*/
@@ -172,5 +225,19 @@ h6 {
     }
     #video {
         width:90% !important;
+    }
+    .sdu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .imgpapers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100% !important;
+        height: 100% !important;
     }
 }
