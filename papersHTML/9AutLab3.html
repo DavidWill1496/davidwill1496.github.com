@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS TEMPLATE ORIGINAL-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./assets/owl.carousel.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <title>CV of David Galvis</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../assets/owl.carousel.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" >
+    <title>Sequential control of a simulated process of 5 hydraulic cylinders through a PLC</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -28,16 +28,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- me-auto for left, mx-auto to center -->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
+              <a class="nav-link" href="../courses.html">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="papers.html">Papers</a>
+              <a class="nav-link" href="../papers.html">Papers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="videos.html">Videos</a>
+              <a class="nav-link" href="../videos.html">Videos</a>
             </li>
           </ul>
         </div>
@@ -47,13 +47,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000"> <!--databsinterval for time active in ms, active for the first image-->
-          <img src="./images/Programming.jpg" class="d-block w-100" alt="slide1">
+          <img src="../images/Programming.jpg" class="d-block w-100" alt="slide1">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="./images/Embedded.jpg" class="d-block w-100" alt="slide2">
+          <img src="../images/Embedded.jpg" class="d-block w-100" alt="slide2">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="./images/Manipulator.jpg" class="d-block w-100" alt="slide3">
+          <img src="../images/Manipulator.jpg" class="d-block w-100" alt="slide3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -65,77 +65,19 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
-    <!-- Section Introduction-->
-    <section class="w-75 mx-auto text-left pt-5" id="intro"> <!-- w size of container in 50%, mx auto to center, pt padding top-->
-      <h1 class="p-3 fs-2 border-top border-3">Relevant courses and descriptions</h1>
-      <p class="p-3 fs-4">
-        The following information contains <span class="text-primary">course descriptions of highly relevant subjects and projects</span> studied during the degree of Mechatronics Engineering in Nueva Granada Military University
-      </p>
+    <section class="w-75 mx-auto text-center pt-5" id="Embebidos"> 
+        <h1>Sequential control of a simulated process of 5 hydraulic cylinders through a PLC</h1>
+        <div class="container" id="embed1">
+          <h3>Paper english version -<a onClick="window.location.reload()"> (If document is not displayed below, click here to refresh)</a></h3>
+          <object style="width:90%;" height="800" data="https://docs.google.com/gview?embedded=true&amp;url=https://davidwill1496.github.io/papers/9Aut_Lab_3_English.pdf"></object>
+          <!-- <embed src="../papers/7Con_Lab_6_English.pdf" type="application/pdf" style="width:90%;" height="800"> -->
+        </div>
+        <div class="container" id="embed2">
+          <h3>Paper spanish version (original) -<a onClick="window.location.reload()"> (If document is not displayed below, click here to refresh)</a></h3>
+          <object style="width:90%;" height="800" data="https://docs.google.com/gview?embedded=true&amp;url=https://davidwill1496.github.io/papers/9Aut_Lab_3_Spanish.pdf"></object>
+          <!-- <embed src="../papers/7Con_Lab_6_Spanish.pdf" type="application/pdf" style="width:90%;" height="800"> -->
+        </div>
     </section>
-    <!-- Accordion for course description -->
-      <div class="accordion w-50 p-3 mx-auto" id="accordionExample">
-        <div class="accordion-item"> <!-- Accordion 1 -->
-          <h2 class="accordion-header" id="headingOne"> 
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Actuators
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body justify-content-center">
-              This content will be published soon 
-              <br><a href="papers.html#headingOne">- Click to see papers</a>
-              <ul class="list-group list-group-flush mt-2"> <!-- Flush List - Bootstrap-->
-                <li class="list-group-item">Technical support and initial setup for centrifuge machines</li>
-                <li class="list-group-item">Calibration of encoders and grippers for automated ELISA processing systems</li>
-                <li class="list-group-item">Provide troubleshooting to customers by phone</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item"> <!-- Accordion 2 -->
-          <h2 class="accordion-header" id="headingTwo"> 
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Linear Control
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body justify-content-center">
-              This content will be published soon 
-              <br><a href="papers.html#headingTwo">- Click to see papers</a>
-              <ul class="list-group list-group-flush mt-2"> <!-- Flush List - Bootstrap-->
-                <li class="list-group-item">Laboratory 1: Modelling of mechatronic systems</li>
-                <li class="list-group-item">Calibration of encoders and grippers for automated ELISA processing systems</li>
-                <li class="list-group-item">Provide troubleshooting to customers by phone</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item"> <!-- Accordion 3 -->
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Advanced Control Topics 
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body justify-content-center">
-              This content will be published soon 
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item"> <!-- Accordion 4 -->
-          <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Industrial Automation 
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              This content will be published soon 
-            </div>
-          </div>
-        </div>
-      </div>
     <!-- Section Slides of software-->
     <section>
       <div class="testimonial-area">
@@ -144,59 +86,51 @@
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><img src="./images/Matlab.png" alt=""></div></div></div></a>
+                  <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><img src="../images/Matlab.png" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.siemens.com/global/en.html" target="_blank"><img src="./images/Logo-Siemens.png" alt=""></div></div></div></a>
+                  <a href="https://www.siemens.com/global/en.html" target="_blank"><img src="../images/Logo-Siemens.png" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.solidworks.com/" target="_blank"><img src="./images/Solidworks.png" alt=""></div></div></div></a>
+                  <a href="https://www.solidworks.com/" target="_blank"><img src="../images/Solidworks.png" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.festo.com/dk/en/" target="_blank"><img src="./images/festo.png" alt=""></div></div></div></a>
+                  <a href="https://www.festo.com/dk/en/" target="_blank"><img src="../images/festo.png" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.ibm.com/us-en/" target="_blank"><img src="./images/IBM.jpg" alt=""></div></div></div></a>
+                  <a href="https://www.ibm.com/us-en/" target="_blank"><img src="../images/IBM.jpg" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.ansys.com/" target="_blank"><img src="./images/logo-ansys.png" alt=""></div></div></div></a>
+                  <a href="https://www.ansys.com/" target="_blank"><img src="../images/logo-ansys.png" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.ni.com/da-dk/shop/labview.html" target="_blank"><img src="./images/LabView.png" alt=""></div></div></div></a>
+                  <a href="https://www.ni.com/da-dk/shop/labview.html" target="_blank"><img src="../images/LabView.png" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://gb.mitsubishielectric.com/en/" target="_blank"><img src="./images/Mitsubishi.png" alt=""></div></div></div></a>
+                  <a href="https://gb.mitsubishielectric.com/en/" target="_blank"><img src="../images/Mitsubishi.png" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.raspberrypi.org/" target="_blank"><img src="./images/Raspberry.png" alt=""></div></div></div></a>
+                  <a href="https://www.raspberrypi.org/" target="_blank"><img src="../images/Raspberry.png" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.famictech.com/en/Products/Automation-Studio/Educational-Edition" target="_blank"><img src="./images/AutomationStudio.PNG" alt=""></div></div></div></a>
+                  <a href="https://www.famictech.com/en/Products/Automation-Studio/Educational-Edition" target="_blank"><img src="../images/AutomationStudio.PNG" alt=""></div></div></div></a>
             <div class="item">
               <div class="single-testimonial">
                 <div class="img-area">
-                  <a href="https://www.xilinx.com/" target="_blank"><img src="./images/Xilinx.jpg" alt=""></div></div></div></a>
+                  <a href="https://www.xilinx.com/" target="_blank"><img src="../images/Xilinx.jpg" alt=""></div></div></div></a>
           </div>
         </div>
       </div>
     </section>
-    <!-- Visitor counter -->
-    <div class="VisitCounter">
-      <p>Visitor counter resets every sunday</p>
-    </div> 
-    <div class="VisitCounter">
-      <a href='https://www.versicherungen.at/'>Versicherungen Rechner</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=689c058a0e573d64fa82c99c84af8f594b196924'></script>
-      <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/920975/t/0"></script>  
-    </div> 
     <!-- <div id="google_element"></div> -->
     <!-- Contact section-->
     <footer class="bg-dark text-center text-white">
@@ -221,15 +155,15 @@
       </div>
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 This website was designed and developed by:
+        © 2022 This website was developed by:
         <a class="text-white" href="https://github.com/DavidWill1496" target="_blank">David Esteven Galvis Arevalo</a>
       </div>
       <!-- Copyright -->
     </footer>
     <!-- Option 1: Bootstrap Bundle with Popper - TEMPLATE ORIGINAL-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="./assets/jquery-3.6.0.min.js"></script>
-    <script src="./assets/owl.carousel.min.js"></script>
+    <script src="../assets/jquery-3.6.0.min.js"></script>
+    <script src="../assets/owl.carousel.min.js"></script>
     <!-- <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
     <script>
       function loadGoogleTranslate(){
