@@ -161,8 +161,8 @@ h6 {
 } */
 
 /*======= MEDIA QUERIES =======*/
-/* The # is used for id's and the . is used for classes */
-@media (max-width:1920px){
+/* The # is used for id's and the . is used for classes 1920px is FULLHD , 3840px is 4K*/
+@media (max-width:3840px){
     .sdu {
         display: block;
         margin-left: auto;
@@ -177,6 +177,14 @@ h6 {
         margin-bottom: 3px;
         width: 60% !important;
         height: 60% !important;
+    }
+    .VERTICALimgpapers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3px;
+        width: 365px !important;
+        height: 464px !important;
     }
     .VisitCounter {
         margin-top: 1px;

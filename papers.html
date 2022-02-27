@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./assets/owl.carousel.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" >
     <title>CV of David Galvis</title>
   </head>
   <body>
@@ -65,12 +65,11 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
     <!-- Section Introduction-->
     <section class="w-75 mx-auto text-left pt-5" id="intro"> <!-- w size of container in 50%, mx auto to center, pt padding top-->
       <h1 class="p-3 fs-2 border-top border-3">Relevant papers and proyects</h1>
       <p class="p-3 fs-4">
-        The following list is sorted by course and contains detailed relevant projects and <span class="text-primary"> practical classes</span> developed during the degree of Mechatronics Engineering in Nueva Granada Military University. 
+        The following list is sorted by course and contains detailed <span class="text-primary"> relevant projects</span> and <span class="text-primary"> practical classes</span> developed during the degree of Mechatronics Engineering in Nueva Granada Military University. 
         <br>©All rights reserved to the intelectual authors mentioned on each paper.
       </p>
     </section>
@@ -306,7 +305,7 @@
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body justify-content-center"> <!-- Control Topics Paper 1 -->
-              <h6>Disturbances on control, and review of control in state space</h6><br>
+              <h6>Disturbances on control, a review of control in state space</h6><br>
               <div>
                 <img class="imgpapers" src="./images/ControlDisturbance.PNG" alt="microcontroller" >
               </div>
@@ -445,6 +444,29 @@
                 <li class="list-group-item">Camera tracking and trajectory planning with manipulator Mitsubishi MELFA - Spanish version (Original) <a target="_blank" href="./papersHTML/9AutLab5.html#embed2">- Click to open...</a></li>
               </ul>
             </div>
+            <div class="accordion-body justify-content-center"> <!-- Automation Paper 6 -->
+              <h6>Proyect: SCADA systems in crude oil refining process</h6><br>
+              <div>
+                <img class="imgpapers" src="./images/AutoLab6.PNG" alt="ladder" >
+              </div>
+              <div>
+                <img class="VERTICALimgpapers" src="./images/PlantaLab6.PNG" alt="ladder" >
+              </div>
+              <h5>Abstract:</h5>
+              This document presents the realization of a SCADA system on a thread for crude oil refining, where the main objective is to remotely control and supervise each stage of the process from start to finish and that in turn it has programmed alarms capable of indicating the personnel in charge when an inconvenience occurs. In the oil industry, it is vitally important to be aware of oil refining, since any change in this procedure can result in obtaining a poor quality product, which generates waste of time and money. Since each of these processes have defined characteristics and standards such as the temperatures or the reaction time of the liquid that must be established so that there are no changes in the final result of the product. This is done thanks to two controls implemented on the heating and reaction process on which a PID controller and a state feedback controller are applied, respectively. And on which the temperature values ​​of each of these must always be visible in the user interfaces, whether local or remote, that allows the personnel in charge to observe that none of these exceed the limits or generate unforeseen errors despite the alarms. installed in the system and that both the reactor motor (inverter (Speed drive)) and the pump (servomotor) are operating correctly.
+               <br><br>
+                <h5>Authors:</h5>Galvis David; Buitrago Eric, Gomez Johan  <span style="font-weight:bold; font-size:1em">Co-author: Prof. Olga Lucía Ramos Sandoval, Ph.D. </span><br>
+                <p style="font-size:1em"><span style="font-weight:bold; font-size:1em">Year: </span>2018 &nbsp | <span style="font-weight:bold; font-size:1em">Engineering fields: </span> Analog and Digital electronics, Control and signal processing, Programming and simulation, Thermodynamics &nbsp | <span style="font-weight:bold; font-size:1em">Technology brands: </span>SIEMENS (PLC S7-1500 , Temperature Sensor PT100, Speed Drive Micromaster 440)  &nbsp | <span style="font-weight:bold; font-size:1em">Keywords: </span> Oil refining, SCADA systems, Remote supervision WinCC, Mechatronics modelling, PID Siemens PLC, Temperature control Siemens </p>
+                <p style="font-size:1em"><span style="font-weight:bold; font-size:1em">
+                  Important documentation: <br></span>Siemens PID Module for PLC S7-1500 &nbsp  <a href="https://cache.industry.siemens.com/dl/files/036/108210036/att_896030/v1/s71500_pid_control_function_manual_enUS_en-US.pdf" target="_blank"><i class="far fa-file-alt"></i></a><br>
+                  Siemens Speed Drive Micromaster 440 Manual &nbsp  <a href="https://cache.industry.siemens.com/dl/files/204/23708204/att_60463/v1/440_PLi_23708204_en_0106.pdf" target="_blank"><i class="far fa-file-alt"></i></a><br>
+                  Siemens PT100 Temperature sensor Datasheet &nbsp  <a href="https://sid.siemens.com/v/u/20052" target="_blank"><i class="far fa-file-alt"></i></a>
+                </p>
+              <ul class="list-group list-group-flush mt-2"> <!-- Flush List - Bootstrap-->
+                <li class="list-group-item">SCADA systems in crude oil refining process - English version <a target="_blank" href="./papersHTML/9AutLab6.html#embed1">- Click to open...</a></li>
+                <li class="list-group-item">SCADA systems in crude oil refining process - Spanish version (Original) <a target="_blank" href="./papersHTML/9AutLab6.html#embed2">- Click to open...</a></li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="accordion-item"> <!-- Accordion 5 -->
@@ -518,9 +540,6 @@
     </section>
     <!-- Visitor counter -->
     <div class="VisitCounter">
-      <p>Visitor counter resets every sunday</p>
-    </div>
-    <div class="VisitCounter">
       <a href='https://www.versicherungen.at/'>Versicherungen Rechner</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=47e7124d9e1b5db3c8e66066bee6fe1eb700e80c'></script>
       <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/920976/t/0"></script>
     </div> 
@@ -534,9 +553,9 @@
           <!-- Facebook -->
           <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/daviid.galviis.3/" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
           <!-- University -->
-          <a class="btn btn-outline-light btn-floating m-1" href="https://www.umng.edu.co/programas/pregados/ingenieria-mecatronica" target="_blank" role="button"><i class="fas fa-university"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.timeshighereducation.com/world-university-rankings/nueva-granada-military-university#pane-university-rankings-chart" target="_blank" role="button"><i class="fas fa-university"></i></a>
           <!-- University Rank-->
-          <a class="btn btn-outline-light btn-floating m-1" href="https://www.scimagoir.com/institution.php?idp=1951" target="_blank" role="button"><i class="fas fa-graduation-cap"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.scimagoir.com/institution.php?idp=1951#area_ranks_all" target="_blank" role="button"><i class="fas fa-graduation-cap"></i></a>
           <!-- Instagram -->
           <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/davidstevensg/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
           <!-- Linkedin -->
