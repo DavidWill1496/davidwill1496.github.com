@@ -186,6 +186,14 @@ h6 {
         width: 365px !important;
         height: 464px !important;
     }
+    .imgcourses {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3px;
+        width: 80% !important;
+        height: 80% !important;
+    }
     .VisitCounter {
         margin-top: 1px;
         display: flex;

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./assets/owl.carousel.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>CV of David Galvis</title>
+    <title>Courses</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -47,13 +47,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000"> <!--databsinterval for time active in ms, active for the first image-->
-          <img src="./images/Programming.jpg" class="d-block w-100" alt="slide1">
+          <img src="./images/Manipulator1.jpg" class="d-block w-100" alt="slide1">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
           <img src="./images/Embedded.jpg" class="d-block w-100" alt="slide2">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="./images/Manipulator.jpg" class="d-block w-100" alt="slide3">
+          <img src="./images/Programming.jpg" class="d-block w-100" alt="slide3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -70,66 +70,132 @@
     <section class="w-75 mx-auto text-left pt-5" id="intro"> <!-- w size of container in 50%, mx auto to center, pt padding top-->
       <h1 class="p-3 fs-2 border-top border-3">Relevant courses and descriptions</h1>
       <p class="p-3 fs-4">
-        The following information contains <span class="text-primary">course descriptions of highly relevant subjects and projects</span> studied during the degree of Mechatronics Engineering in Nueva Granada Military University
+        The following information contains <span class="text-primary">main topics</span> of the most relevant subjects studied during the degree of Mechatronics Engineering in Nueva Granada Military University
       </p>
     </section>
     <!-- Accordion for course description -->
       <div class="accordion w-50 p-3 mx-auto" id="accordionExample">
-        <div class="accordion-item"> <!-- Accordion 1 -->
+        <div class="accordion-item"> <!-- 1 Actuators -->
           <h2 class="accordion-header" id="headingOne"> 
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Actuators
+              <span style="font-weight:bold; font-size:1em">Actuators</span>
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body justify-content-center">
-              This content will be published soon 
-              <br><a href="papers.html#headingOne">- Click to see papers</a>
+              Some tools used in this course.
+              <div>
+                <img class="imgcourses" src="./images/CourseActuators.png" alt="microcontroller" >
+              </div>
+              <p style="font-size:1em">
+                <span style="font-weight:bold; font-size:1em">FESTO: </span> Pneumatic and Hydraulic equipment such as cylinders, valves, switches, Fluidsim simulation software <br>
+                <span style="font-weight:bold; font-size:1em">LabVolt by Festo: </span> Motors and Dynamometer <br>
+                <span style="font-weight:bold; font-size:1em">YASKAWA: </span>Servomotor and driver <br>
+                <span style="font-weight:bold; font-size:1em">Proteus: </span>Simulation software for circuits, PCB design <br>
+                <span style="font-weight:bold; font-size:1em">C++: </span>Programming language for the embedded system, PWM Module, DAC (Digital-Analog Converter C++) <br>
+                <span style="font-weight:bold; font-size:1em">STM: </span>Embedded system for programming solutions (C++)
+              </p>
+              Here you can find more information about projects made during the BSc in Mechatronics <a href="papers.html#headingOne">- Click to see papers</a>
               <ul class="list-group list-group-flush mt-2"> <!-- Flush List - Bootstrap-->
-                <li class="list-group-item">Technical support and initial setup for centrifuge machines</li>
-                <li class="list-group-item">Calibration of encoders and grippers for automated ELISA processing systems</li>
-                <li class="list-group-item">Provide troubleshooting to customers by phone</li>
+                <li class="list-group-item">Electric actuators</li>
+                <li class="list-group-item">Pneumatics and pneumatic elements</li>
+                <li class="list-group-item">Electropneumatics</li>
+                <li class="list-group-item">Hydraulic and electrohydraulic</li>
+                <li class="list-group-item">Bio Actuators</li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="accordion-item"> <!-- Accordion 2 -->
+        <div class="accordion-item"> <!-- 2 Linear Control -->
           <h2 class="accordion-header" id="headingTwo"> 
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Linear Control
+              <span style="font-weight:bold; font-size:1em">Linear Control</span>
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body justify-content-center">
-              This content will be published soon 
-              <br><a href="papers.html#headingTwo">- Click to see papers</a>
+              Some tools used in this course.
+              <div>
+                <img class="imgcourses" src="./images/CourseLinearControl.png" alt="microcontroller" >
+              </div>
+              <p style="font-size:1em">
+                <span style="font-weight:bold; font-size:1em">MATLAB & Simulink: </span> Control simulation, automated mathematics operation programmed in own source code <br>
+                <span style="font-weight:bold; font-size:1em">Solidworks: </span> Design of the plant, in MDF material <br>
+                <span style="font-weight:bold; font-size:1em">Arduino: </span> Discrete control with Microcontrollers <br>
+                <span style="font-weight:bold; font-size:1em">Lab View National Instruments: </span>DAQ embedded system for monitoring and development of discrete controls
+              </p>
+              Here you can find more information about projects made during the BSc in Mechatronics <a href="papers.html#headingTwo">- Click to see papers</a>
               <ul class="list-group list-group-flush mt-2"> <!-- Flush List - Bootstrap-->
-                <li class="list-group-item">Laboratory 1: Modelling of mechatronic systems</li>
-                <li class="list-group-item">Calibration of encoders and grippers for automated ELISA processing systems</li>
-                <li class="list-group-item">Provide troubleshooting to customers by phone</li>
+                <li class="list-group-item">Introduction to control systems</li>
+                <li class="list-group-item">Analysis and design of continuous-time control</li>
+                <li class="list-group-item">Classic control and strategies for control in frequency domain</li>
+                <li class="list-group-item">Analysis and control in state space</li>
+                <li class="list-group-item">Analysis and design of control in discrete time</li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="accordion-item"> <!-- Accordion 3 -->
+        <div class="accordion-item"> <!-- 3 Advanced Control Topics -->
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Advanced Control Topics 
+              <span style="font-weight:bold; font-size:1em">Advanced Control Topics</span>
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body justify-content-center">
-              This content will be published soon 
+              Some tools used in this course.
+              <div>
+                <img class="imgcourses" src="./images/CourseTAC.png" alt="microcontroller" >
+              </div>
+              <p style="font-size:1em">
+                <span style="font-weight:bold; font-size:1em">MATLAB & Simulink: </span> Control simulation, automated mathematics operation programmed in own source code <br>
+                <span style="font-weight:bold; font-size:1em">Lab View National Instruments: </span>DAQ embedded system for monitoring and development of discrete controls
+              </p>
+              Here you can find more information about projects made during the BSc in Mechatronics <a href="papers.html#headingTwo">- Click to see papers</a>
+              <ul class="list-group list-group-flush mt-2"> <!-- Flush List - Bootstrap-->
+                <li class="list-group-item">State feedback control systems</li>
+                <li class="list-group-item">Concepts of Non-linear systems</li>
+                <li class="list-group-item">Approximate linearization</li>
+                <li class="list-group-item">Extended linearization</li>
+                <li class="list-group-item">Controllability and observability</li>
+                <li class="list-group-item">Control in discrete-time</li>
+                <li class="list-group-item">Exact linearization by feedback Input-Output</li>
+                <li class="list-group-item">Linearization by feedback Input-State</li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="accordion-item"> <!-- Accordion 4 -->
           <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Industrial Automation 
+              <span style="font-weight:bold; font-size:1em">Industrial Automation </span>
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              This content will be published soon
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item"> <!-- Accordion 5 -->
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <span style="font-weight:bold; font-size:1em">Sensors </span>
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              This content will be published soon 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item"> <!-- Accordion 6 -->
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <span style="font-weight:bold; font-size:1em">Artificial intelligence </span>
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               This content will be published soon 
             </div>
