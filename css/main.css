@@ -162,7 +162,7 @@ h6 {
 
 /*======= MEDIA QUERIES =======*/
 /* The # is used for id's and the . is used for classes 1920px is FULLHD , 3840px is 4K*/
-@media (max-width:3840px){
+@media (max-width:1920px){
     .sdu {
         display: block;
         margin-left: auto;
