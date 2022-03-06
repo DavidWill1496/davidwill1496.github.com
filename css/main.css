@@ -206,6 +206,18 @@ h6 {
     }
 }
 
+@media (max-width:1368px){
+    .imgpapers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3px;
+        width: 90% !important;
+        height: 90% !important;
+    }
+    
+}
+
 @media (max-width:768px){
     #intro, #about, #accordionExample{
         width: 90% !important; /*With important, bootstrap holds 90% of the intro*/
