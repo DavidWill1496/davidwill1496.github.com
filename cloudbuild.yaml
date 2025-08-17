@@ -1,0 +1,9 @@
+# cloudbuild.yaml
+steps:
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['rsync', '-r', '.', 'gs://my-cv-website-david-galvis']
+    # If your static files are in a subdirectory (e.g., 'public'), change '.' to 'public'.
+    # For example: args: ['rsync', '-r', 'public', 'gs://YOUR_BUCKET_NAME']
+options:
+  # Optional: You can specify a timeout for the build. Default is 10 minutes.
+  # timeout: '120s'
